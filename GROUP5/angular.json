@@ -54,6 +54,7 @@
               "outputHashing": "all"
             },
             "development": {
+              
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
@@ -71,6 +72,8 @@
               "browserTarget": "ROLEUSER:build:production"
             },
             "development": {
+
+              "proxyConfig": "proxy.conf.json" ,
               "browserTarget": "ROLEUSER:build:development"
             }
           },

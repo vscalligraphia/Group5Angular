@@ -1,0 +1,41 @@
+ <!-- Dashboard -->
+ <div class="dashboard">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-4">Dashboard</h1>
+          <p class="lead text-muted">Welcome To Hackathon</p>
+          <!-- Dashboard Actions -->
+          <div class="btn-group mb-4" role="group">
+            <a [routerLink]="['/user/register']" routerLinkActive="router-link-active"  class="btn btn-light">
+              <i class="fas fa-user-circle text-info mr-1"></i> Sign Up</a>
+            <a [routerLink]="['/user/login']" routerLinkActive="router-link-active"  class="btn btn-light">
+              <i class="fab fa-black-tie text-info mr-1"></i>
+              Login </a>
+            <a [routerLink]="['/user/contactus']" routerLinkActive="router-link-active"  class="btn btn-light">
+              <i class="fas fa-graduation-cap text-info mr-1"></i>
+              Contact Us</a>
+          </div>
+
+          <!-- ADD ROLE -->
+          <div>
+            <h4 class="mb-2">ROLE Credentials</h4>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Role Id</th>
+                  <th>Role Title</th>
+                  
+                
+                </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+            </table>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

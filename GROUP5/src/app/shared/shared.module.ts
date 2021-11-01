@@ -1,14 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { RoleRoutingModule } from './role-routing.module';
+import { intercepts } from './interceptors';
 
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    RoleRoutingModule
+
+  ],
+  providers: [intercepts
+
   ]
 })
-export class RoleModule { }
+export class SharedModule { }
